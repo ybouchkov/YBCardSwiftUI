@@ -13,6 +13,8 @@
 		37FCB96125D404FE00953482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FCB96025D404FE00953482 /* Preview Assets.xcassets */; };
 		37FCB96C25D404FE00953482 /* YBCardSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FCB96B25D404FE00953482 /* YBCardSwiftUITests.swift */; };
 		37FCB97725D404FE00953482 /* YBCardSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FCB97625D404FE00953482 /* YBCardSwiftUIUITests.swift */; };
+		37FCB98925D4080F00953482 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37FCB98825D407FA00953482 /* Pacifico-Regular.ttf */; };
+		37FCB99625D40EFF00953482 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FCB99525D40EFF00953482 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		37FCB97225D404FE00953482 /* YBCardSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBCardSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FCB97625D404FE00953482 /* YBCardSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBCardSwiftUIUITests.swift; sourceTree = "<group>"; };
 		37FCB97825D404FE00953482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FCB98825D407FA00953482 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		37FCB99525D40EFF00953482 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		37FCB95825D404FC00953482 /* YBCardSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				37FCB98725D407F100953482 /* Fonts */,
 				37FCB95925D404FC00953482 /* YBCardSwiftUIApp.swift */,
 				37FCB95B25D404FC00953482 /* ContentView.swift */,
 				37FCB95D25D404FE00953482 /* Assets.xcassets */,
 				37FCB96225D404FE00953482 /* Info.plist */,
 				37FCB95F25D404FE00953482 /* Preview Content */,
+				37FCB99525D40EFF00953482 /* InfoView.swift */,
 			);
 			path = YBCardSwiftUI;
 			sourceTree = "<group>";
@@ -128,6 +134,14 @@
 				37FCB97825D404FE00953482 /* Info.plist */,
 			);
 			path = YBCardSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		37FCB98725D407F100953482 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				37FCB98825D407FA00953482 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FCB98925D4080F00953482 /* Pacifico-Regular.ttf in Resources */,
 				37FCB96125D404FE00953482 /* Preview Assets.xcassets in Resources */,
 				37FCB95E25D404FE00953482 /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37FCB95C25D404FC00953482 /* ContentView.swift in Sources */,
+				37FCB99625D40EFF00953482 /* InfoView.swift in Sources */,
 				37FCB95A25D404FC00953482 /* YBCardSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
